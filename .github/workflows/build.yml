@@ -2,12 +2,12 @@ name: ci
 
 env:
   OWNER_NAME: 'olezai'
-  APP_NAME: 'stress'
+  APP_NAME: 'simple-webapp-mysql'
 
 on:
   push:
     branches:
-      - 'main'
+      - 'master'
 
 jobs:
 
